@@ -41,7 +41,7 @@ namespace Company.Function
             string result = await CallVisionAPI(image);
             log.Info(result);
 
-            if (string.IsNullOrEmpty(result))
+            if (String.IsNullOrEmpty(result))
             {
                 return;
             }
